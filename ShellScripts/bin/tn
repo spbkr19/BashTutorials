@@ -7,5 +7,7 @@
 #echo $* >> ~/notes.txt
 
 # I want to add date now
+# In order to call the script from anywhere in the machine
+# PATH=$PATH:<PathNameFromRoot>
 
 echo $(date -u): $* >> ~/notes.txt
