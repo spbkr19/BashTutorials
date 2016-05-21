@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# This is a simple note taking bash script
+# Author: Karthik
+
+# echo $1 >> ~/notes.txt
+#echo $* >> ~/notes.txt
+
+# I want to add date now
+
+echo $(date -u): $* >> ~/notes.txt
