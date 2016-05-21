@@ -47,6 +47,15 @@ Shebang or HashBang
 
    #!/bin/bash              // Should be the first line
                             // Makes sure that the script would be handled only by a bash interpreter
-                            
+                 
+                 
+ Naming the script
+====================           
+
+
+ * Before naming any script, use type command 
+ * >> test scriptname
+ 
+
   
 
